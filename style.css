@@ -44,7 +44,7 @@ body > header:after {
 
 img {
     width: 87%;
-    border: 2px solid whitesmoke;
+    border-radius: 50%;
 }
 
 #heading {    
