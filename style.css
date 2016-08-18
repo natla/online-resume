@@ -86,7 +86,7 @@ aside {
 }
 
 aside section:first-of-type {
-    margin-top: 34px;
+    margin-top: 44px;
 }
 
 aside header {
@@ -128,7 +128,7 @@ main > section {
 }
 
 main article:first-of-type {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 article header {
@@ -142,8 +142,8 @@ article p {
 
 article h2, article h3 {
     text-align: center;
-    padding: 5px 0;
-	margin-bottom: 3px;
+    padding: 7px 0;
+    margin-bottom: 3px;
 }
 
 hr {
