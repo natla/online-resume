@@ -1,7 +1,7 @@
-body {
+body {	
+	margin: 0;
     color: #444;
-    font: 16px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
+    font: 16px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
 ul {
@@ -14,13 +14,13 @@ a {
     color: #333;
 }
 
-.skills li {
-    text-transform: uppercase;
-    padding: 5px 0;
+.container{
+	display: flex;
+	align-items: stretch;
 }
 
 body > header {
-    position: relative;
+	position: relative;    
     background-color: #333233;
     color: white;
     text-align: center;
@@ -36,33 +36,49 @@ body > header:after {
     clear: both;
 }
 
-/*#image-div {
+#heading {	
+	margin: 0 auto;
+    margin-left: 334px;
+}
+
+#resume {
     position: absolute;
-    top: 6px;
-    left: -335px;
-}*/
+    right: 0;
+    top: 50%;
+    margin-top: -26px;
+    border: 2px solid whitesmoke;
+    border-right: 0;
+    padding: 0 10px;
+}
+/* #resume-left{
+	position: absolute;
+    left: 0;
+    top: 80px;
+	border: 2px solid whitesmoke;
+    border-left: 0;
+	padding: 0 10px;
+} */
+
+#image-div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 100%;
+	min-width: 225px;
+    padding-top: 25px;
+	background-color: #39B7BD;
+    text-align: center;
+    z-index: 100;
+}
 
 img {
     width: 87%;
     border-radius: 50%;
 }
 
-#heading {    
-	margin-left: 20%;
-}
-
-#resume {
-    position: absolute;
-    right: 0;
-    top: 80px;
-    border: 2px solid whitesmoke;
-    border-right: 0;
-    padding: 0 10px;
-}
-
 h1, h2, h3 {
-    font: 300 16px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /*font-weight: normal;*/
+    font: 300 16px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;   
     text-transform: uppercase;
     font-size: 1.2em;
 }
@@ -71,11 +87,7 @@ h1 {
     font-size: 2em;
 }
 
-aside {
-    position: absolute;
-    top: 0;
-    left: 16px;
-    float: left;
+aside {    
     width: 25%;
     min-width: 225px;
     padding-top: 25px;
@@ -109,17 +121,21 @@ aside p {
     margin: 5px;
 }
 
+
+.skills li {
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
 p.centered {
     text-align: center;
     font-style: italic;
     margin: 0;
 }
 
-main {
-    /*display: inline-block;*/
-    width: 60%;
-    /* text-align: center; */
-    margin-left: 30%;
+main {    
+    width: 60%;   
+    margin:  0 auto;
 }
 
 main > section {
