@@ -44,7 +44,7 @@ body > header:after {
 
 img {
     width: 87%;
-    border: 2px solid whitesmoke;
+    border-radius: 50%;
 }
 
 #heading {    
@@ -77,8 +77,8 @@ aside {
     left: 16px;
     float: left;
     width: 25%;
-    min-width: 210px;
-    padding-top: 20px;
+    min-width: 225px;
+    padding-top: 25px;
     padding-bottom: 30px;
     background-color: #39B7BD;
     text-align: center;
@@ -86,7 +86,7 @@ aside {
 }
 
 aside section:first-of-type {
-    margin-top: 34px;
+    margin-top: 39px;
 }
 
 aside header {
@@ -128,7 +128,7 @@ main > section {
 }
 
 main article:first-of-type {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 article header {
@@ -142,8 +142,8 @@ article p {
 
 article h2, article h3 {
     text-align: center;
-    padding: 5px 0;
-	margin-bottom: 3px;
+    padding: 7px 0;
+    margin-bottom: 3px;
 }
 
 hr {
