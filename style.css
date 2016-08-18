@@ -78,7 +78,7 @@ aside {
     float: left;
     width: 25%;
     min-width: 225px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 30px;
     background-color: #39B7BD;
     text-align: center;
@@ -86,7 +86,7 @@ aside {
 }
 
 aside section:first-of-type {
-    margin-top: 44px;
+    margin-top: 40px;
 }
 
 aside header {
