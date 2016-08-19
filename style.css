@@ -104,7 +104,7 @@ aside {
 }
 
 aside section:first-of-type {
-    margin-top: 39px;
+    margin-top: 0;
 }
 
 aside header {
