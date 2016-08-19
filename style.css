@@ -25,7 +25,7 @@ a {
 
 body > header {
 	position: relative;    
-    background-color: #333233;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 50px;
@@ -104,7 +104,7 @@ aside {
 }
 
 aside section:first-of-type {
-    margin-top: 39px;
+    margin-top: 0;
 }
 
 aside header {
@@ -150,7 +150,7 @@ main > section {
 }
 
 main article:first-of-type {
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 article header {
