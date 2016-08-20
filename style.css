@@ -123,6 +123,11 @@ aside h3 {
     margin: 10px;
 }
 
+h3.contact {
+	text-align: left;
+	margin-left: 36%;
+}
+
 aside p {
     margin: 5px;
 }
