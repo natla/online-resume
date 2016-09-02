@@ -144,6 +144,15 @@ p.centered {
     margin: 0;
 }
 
+p.important {
+	width: 80%;
+	margin: auto auto;
+	background-color: #fff;
+	margin-top: 5px;
+	margin-bottom: 14px;
+	padding: 2px 0;
+}
+
 main {    
     width: 60%;   
     margin:  0 auto;
