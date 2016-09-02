@@ -1,6 +1,6 @@
 body {	
 	margin: 0;
-    color: #444;
+    color: #333;
     font: 16px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
@@ -11,7 +11,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #224671;
+    /* color: #2a1d71; */
+}
+
+a:hover {	
+	background-color: aliceblue;
+	padding: 0 5px;
 }
 
 .container{
@@ -146,11 +151,23 @@ p.centered {
 
 p.important {
 	width: 80%;
-	margin: auto auto;
-	background-color: #fff;
+	margin: auto auto;	
+	background-color: #7c8b88;
 	margin-top: 5px;
 	margin-bottom: 14px;
 	padding: 2px 0;
+}
+
+p.important a {
+	color: aliceblue;
+}
+
+p.important:hover {
+	background-color: aliceblue;		
+}
+
+p.important:hover  a, p.important a:hover{
+	color: #7c8b88;		
 }
 
 main {    
