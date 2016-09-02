@@ -152,7 +152,7 @@ p.centered {
 p.important {
 	width: 80%;
 	margin: auto auto;	
-	background-color: #7c8b88;
+	background-color: #624245;
 	margin-top: 5px;
 	margin-bottom: 14px;
 	padding: 2px 0;
@@ -167,7 +167,7 @@ p.important:hover {
 }
 
 p.important:hover  a, p.important a:hover{
-	color: #7c8b88;		
+	color: #624245;		
 }
 
 main {    
