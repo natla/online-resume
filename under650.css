@@ -96,6 +96,10 @@ article header {
 
 article p {    
     width: 80%;
+	margin: 16px auto;
+}
+
+p.centered {
 	margin: 0 auto;
 }
 
@@ -107,6 +111,7 @@ article h2, article h3 {
 
 article h3 {
 	width: 80%;
+	margin: 20px auto 3px;
 }
 
 
