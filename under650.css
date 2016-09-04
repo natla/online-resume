@@ -1,0 +1,120 @@
+
+ul {    
+    width: 80%;
+    text-align: justify;
+	margin: 0 auto;
+}
+
+.container{	
+	display: block;
+}
+
+body > header {
+	position: relative;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 30px 40px 30px;	
+	max-width: 100%;
+	/* margin: 0 auto; */
+	box-sizing: border-box;
+	margin-top: 0;
+}
+
+body > header:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#heading {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 100%;	
+}
+
+#resume { 
+	position: static;   
+    border: 2px solid whitesmoke; 
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+#image-div {	
+    position: static;			
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: -1px;
+}
+
+img {
+	display: block;
+    width: 70%;
+    margin: 0 auto;   
+   
+}
+
+h1, h2, h3 {
+    font: 300 16px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;   
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+aside {
+    width: 100%;   
+    padding-top: 20px;          
+	margin-left: 0;
+}
+
+.skills {
+	width: 100%;
+	text-align: center;	
+}
+
+main {
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main article:first-of-type {
+    padding-top: 15px;
+}
+
+article header {   
+    color: white;
+    background-color: #39B7BD;   
+    width: 80%; 
+	margin: 0 auto;	
+}
+
+article p {    
+    width: 80%;
+	margin: 0 auto;
+}
+
+article h2, article h3 {
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 3px;   
+}
+
+article h3 {
+	width: 80%;
+}
+
+
+article span {
+    text-align: center;
+}
+
+footer {
+    width: 60%;
+	margin: 0 auto;
+}
