@@ -201,6 +201,7 @@ article h2, article h3 {
 
 hr {
     width: 70px;
+	border-top: 0;
 }
 
 article span {
