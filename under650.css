@@ -125,4 +125,9 @@ article span {
 .thanks {
     width: 60%;
 	margin: 0 auto;
+	
+}
+.thanks p {
+	padding: 0;
+	font-size: 1.4em;
 }

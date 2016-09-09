@@ -164,12 +164,7 @@ p.important:hover  a, p.important a:hover{
 
 main {    
     width: 60%;   
-    margin:  0 auto;
-}
-
-main > section {
-    margin: auto auto;
-    text-align: left;
+    margin: 0 auto;
 }
 
 main article:first-of-type {
