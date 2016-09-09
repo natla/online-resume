@@ -59,14 +59,6 @@ body > header:after {
     border-right: 0;
     padding: 0 10px;
 }
-/* #resume-left{
-	position: absolute;
-    left: 0;
-    top: 80px;
-	border: 2px solid whitesmoke;
-    border-left: 0;
-	padding: 0 10px;
-} */
 
 #image-div {
 	position: absolute;
