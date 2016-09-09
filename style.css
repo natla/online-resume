@@ -203,10 +203,17 @@ article span {
     text-align: center;
 }
 
-footer {
+footer  p {
     font-family: "Sofia", cursive;
     font-size: 1.8em;
     color: #666;
     padding: 20px;
     text-align: center;
+}
+small {
+	font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 95%;
+	float: right;
+	padding-bottom: 20px;
+	padding-right: 20px;
 }
