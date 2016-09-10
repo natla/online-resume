@@ -1,4 +1,3 @@
 // set current  year in the footer:
-var date = document.querySelector('.date');
-var currentYear = new Date().getFullYear();
-date.innerText = currentYear;
+var date = document.getElementsByClassName('date')[0];
+date.innerText = new Date().getFullYear();
