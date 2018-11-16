@@ -27,6 +27,8 @@ a:hover {
 
 a.asml:hover {	
 	padding: 0;
+	color: aliceblue;
+    background-color: #A32B68; 
 }
 
 .container{
