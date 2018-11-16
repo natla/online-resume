@@ -1,3 +1,8 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 body {	
 	margin: 0;
     color: #333;
@@ -60,7 +65,7 @@ body > header:after {
     padding: 0 10px;
 }
 
-#image-div {
+/* #image-div {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -69,20 +74,53 @@ body > header:after {
 	min-width: 225px;
     padding-top: 25px;
 	margin-left: 2%;
-	background-color: #39B7BD;
+    background-color: #39B7BD; 
     text-align: center;
     z-index: 100;
 }
+ */
+ 
+ 
+.portrait {
+	margin: 30px auto;
+	height: auto;
+	min-width: 225px;
+	max-width: 240px;
+	max-height: 240px;	
+    overflow: hidden;
+    z-index: 100;
+}
 
-img {
+.octogon {
+    -webkit-clip-path: polygon(50% 0%, 38.11% 6.7%, 24.99% 6.72%, 18.06% 18.44%, 6.7% 25%, 6.56% 38.64%, 0% 50%, 6.7% 61.89%, 6.7% 75%, 18.44% 81.94%, 25% 93.3%, 38.64% 93.44%, 50% 100%, 61.88% 93.3%, 75% 93.3%, 81.94% 81.56%, 93.3% 74.9%, 93.44% 61.36%, 100% 50%, 93.3% 38.11%, 93.3% 25%, 81.56% 18.06%, 74.96% 6.7%, 61.36% 6.56%, 50% 0%);
+    clip-path: url(#octogon);
+}
+
+.portrait img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+/* img {
     width: 87%;
     border-radius: 50%;
+} */
+
+.img-container{
+/* 	this container is necessary to align the img with the aside */
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: auto;
+    width: 25%;
+    min-width: 225px;
+	margin-left: 2%;
+	text-align: center;
 }
 
 h1, h2, h3 {
-    font: 300 16px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;   
+    font: 300 1.2em "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;   
     text-transform: uppercase;
-    font-size: 1.2em;
 }
 
 h1 {
@@ -97,7 +135,7 @@ aside {
 	margin-left: 2%;
     background-color: #39B7BD;
     text-align: center;
-    z-index: 100;
+    z-index: 90;
 }
 
 aside section:first-of-type {
@@ -183,8 +221,18 @@ article p {
 article h2, article h3 {
     text-align: center;
     padding: 7px 0;
-    margin-bottom: 3px;
+    margin-bottom: 3px;	
 }
+
+article h3{
+	font: 500 1.2em "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #A32B68;
+	background: -webkit-linear-gradient(top, #fd0b58 0px, #a32b68 100%);
+	background: linear-gradient(top, #fd0b58 0px, #a32b68 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
 
 hr {   
 	width: 70px;
@@ -205,6 +253,11 @@ article span {
     padding: 20px;
     text-align: center;
 }
+
+footer {
+    margin: 60px 0 40px 0;
+}
+
 small {
 	font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 95%;

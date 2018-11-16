@@ -41,11 +41,11 @@ body > header:after {
     max-width: 80%;
 }
 
-#image-div {	
+#image-div, .img-container {	
     position: static;			
 	width: 100%;
-	margin-left: 0;
-	margin-bottom: -1px;
+	margin: 0 auto;
+	background-color: #39B7BD;
 }
 
 img {
