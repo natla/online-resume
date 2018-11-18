@@ -254,7 +254,7 @@ article span {
 }
 
 .thanks p {
-    font-family: "Sofia", cursive;
+    font-family: "quentinregular", "Sofia", cursive;
     font-size: 1.8em;
     color: #666;
     padding: 20px;
@@ -272,3 +272,5 @@ small {
 	padding-bottom: 20px;
 	padding-right: 20px;
 }
+
+/* 	Custom Quentin font to use */
