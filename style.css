@@ -160,6 +160,7 @@ aside h2 {
 }
 
 aside h3, aside h3 a {
+	display: inline-block;
     font-size: 1em;
     color: white;
     margin: 5px;
