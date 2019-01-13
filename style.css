@@ -25,10 +25,15 @@ a:hover {
 	padding: 0 5px;
 }
 
+a.asml{
+	text-decoration: underline;
+	color: #A32B68;
+}
+
 a.asml:hover, aside h3 a:hover {	
 	padding: 0;
 	color: aliceblue;
-    background-color: #A32B68; 
+    background-color: #A32B68;	
 }
 
 .container{
