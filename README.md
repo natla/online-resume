@@ -1,2 +1,2 @@
 # online-resume
-Natalia Malkovska's online curriculum vitae
+Natalia Malkovska's online CV
